@@ -1,23 +1,35 @@
 
 /* ALLGEMEIN */
+@font-face {
+  font-family: bizmeud;
+  src: url(bizmeud-webfont.woff);
+}
+
 
 div#container {
-  font-family: helvetica;
+  font-family: bizmeud;
 }
 
 div#container2 {
-  font-family: helvetica;
+  font-family: bizmeud;
   background-color: yellow;
   width: 1000px;
   height: 1000px
+}
+
+div#music {
+  position: absolute;
+  top: 200px;
+  left: 500px;
 }
 
 #img {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 160px;
+  top: 150px;
   left: 200px;
+  z-index: -10;
 }
 
 #img2 {
@@ -36,8 +48,8 @@ div#img:hover {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -90px;
+  left: -20px;
 }
 
 p {
@@ -54,8 +66,7 @@ div#main {
 }
 
 #schrecken a {
-  font-size: 210px;
-  font-weight: bold;
+  font-size: 410px;
 }
 
 #dont a {
@@ -123,5 +134,3 @@ img {
     text-align: left;
   }
 }
-
-
